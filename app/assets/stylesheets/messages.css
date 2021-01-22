@@ -12,6 +12,9 @@
   background-color: #253141;
   height: 100px;
   padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .rooms{
@@ -44,4 +47,17 @@
   padding: 20px 40px;
 }
 
+.header-name a{
+  text-decoration: none;
+  font-size: 16px;
+  color: #fafafa;
+}
+
+.create-room a{
+  padding: 14px;
+  text-decoration: none;
+  border: solid 1px lightblue;
+  font-size: 10px;
+  color: deepskyblue;
+}
 

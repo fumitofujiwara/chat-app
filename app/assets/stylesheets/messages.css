@@ -21,12 +21,12 @@
   background-color: #2f3e51;
   height: calc(100vh - 100px);
   padding: 0 20px;
+  overflow: scroll;
 }
 
-.main-chat{
+.chat{
   background-color: #ffffff;
   width: calc(100vw - 300px);
-  height: 100vh;
 }
 
 .chat-header{
@@ -56,8 +56,17 @@
 .create-room a{
   padding: 14px;
   text-decoration: none;
-  border: solid 1px lightblue;
+  border: 1px solid lightblue;
   font-size: 10px;
   color: deepskyblue;
+}
+
+.room{
+  padding: 20px 0 40px;
+}
+
+.room-name a{
+  color: white;
+  text-decoration: none;
 }
 
